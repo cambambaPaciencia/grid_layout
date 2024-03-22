@@ -1,0 +1,16 @@
+.container {
+    background-color: #333;
+    border: 3px solid red;
+    padding: 15px;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center; /*Horizontal*/
+    align-items: center; /*Vertical*/
+}
+
+.container div {
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid blue;
+}
