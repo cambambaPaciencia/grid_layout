@@ -1,0 +1,18 @@
+.container {
+    background-color: #333;
+    border: 3px solid red;
+    padding: 15px;
+    height: 25vh;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 50px auto 10%;
+    grid-template-rows: 70px 30px;
+    grid-row-gap: 10px;
+    grid-column-gap: 15px;
+}   
+
+.container div {
+    background-color: #ccc;
+    padding: 2px;
+    border: 1px solid blue;
+}
