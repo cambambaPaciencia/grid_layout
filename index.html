@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprenda Grid Layout</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="title">Grid Layout</h1>
+        <div class="row">
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="exercicio1.html" class="nav-link">Grid </a></li>
+                <li class="nav-item"><a href="exercicio2.html" class="nav-link">Grid Area</a></li>
+                <li class="nav-item"><a href="exercicio3.html" class="nav-link">Grid Alinhamento</a></li>
+                <li class="nav-item"><a href="exercicio4.html" class="nav-link">Grid Alinhamento Individual</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <p> by <span>MIGUEL KAMBAMBA</span> @ 2023</p>
+        <p class="footer__text">Todos Reservados a <b>horaDeCodar</b> &copy; 2019</p>
+    </footer>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .container{
+            margin-top: 10%;
+            text-align: center;
+            margin-inline: auto;
+            width: 50%;
+        }
+
+        .title{
+            margin: 10px 0;
+            text-transform: capitalize;
+        }
+
+        .nav-menu{
+            list-style: none;
+        }
+
+        .nav-item{
+            margin: 5px 0;
+        }
+
+        .nav-link{
+            text-decoration: none;
+            color: #333;
+            transition: all .4s ease;
+        }
+
+        .nav-link:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .footer{
+            margin-top: 100px;
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+        }
+
+    </style>
+
+</body>
+</html>
